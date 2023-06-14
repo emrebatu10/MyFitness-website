@@ -1,0 +1,428 @@
+*{
+    box-sizing: border-box;}
+
+body{
+
+    margin: 0; 
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;  
+}
+
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header ul li{
+    /*border: 1px solid red;*/
+    /*display: inline-block;*/
+    padding: 25px 60px;
+    float:left;
+    margin-bottom: 0px;  
+}
+
+header ul li a{
+    
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header ul li a:hover{
+    color: brown;
+}
+
+
+#beslenme-main{
+display: flex;
+/*border: 1px solid white;*/
+background-color: black;
+width:100%;
+height:700px; 
+justify-content: center;
+
+}
+
+
+
+#beslenme-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid white;*/
+    width:35%;
+    height:600px ;
+    margin-top: 20px;
+
+}
+
+#beslenme-right{
+    /*border: 1px solid white;*/
+    width:35%;
+    height:600px ;
+    margin-top: 20px;
+    background-image: url(images/diyetisyen.jpeg);
+    background-size: cover;
+    
+    border-radius: 50%;
+
+}
+
+#left-baslik{
+    /*border: 1px solid white;*/
+    width:450px;
+    height:150px ;
+    
+
+}
+#left-content{
+    /*border: 1px solid white;*/
+    width:450px;
+    height:430px ;
+    
+
+}
+
+#beslenme-resimler{
+     display: flex; 
+     justify-content: center;
+     /*border: 1px solid white;*/
+     width:100%;
+     height:250px ;
+     background-color: black;
+     
+    
+}
+
+
+#beslenme-kartlar{
+    display: flex;
+    /*border: 1px solid black;*/
+    width:100%;
+    height:800px ;
+    background-color: black;
+    justify-content: center;
+    column-gap: 30px;
+    
+
+
+}
+#beslenme-kartlar > div{
+     /*border: 2px solid wheat;*/
+     width:300px;
+     height:720px ;
+     border-radius: 30px;
+     color: white;
+     background-color: #2C3639;
+
+
+}
+#kart-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    width:300px;
+    height:300px ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+#kart-top >div{
+    /*border: 1px solid white;*/
+    width:270px;
+    height:70px ;
+    color: white;
+    text-align: center;
+    
+
+
+}
+#sec-btn{
+    width:270px;
+    height:50px ;
+    background-color: coral;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+
+}
+
+#sec-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#kart-1 >p{
+    text-align: left;
+    /*border: 1px solid white;*/
+    font-size: 15px;
+    
+}
+#kart-2 >p{
+    text-align: left;
+
+    /*border: 1px solid white;*/
+    font-size: 15px;
+    
+}
+
+#kart-3 >p{
+    text-align: left;
+    /*border: 1px solid white;*/
+    font-size: 15px;
+    
+}
+#neden-danismanlik{
+    width:100%;
+    height:640px;
+    background-color: black;
+    /*border: 1px solid white;*/
+    margin-bottom: 0px;
+}
+
+#cookbook-container{
+    display: flex;
+    /*border: 1px solid white;*/
+    width: 98%;
+    margin: auto;
+    
+}
+#cookbook-container >div{
+    /*border: 1px solid white;*/
+    width: 50%;
+    height: 600px;
+
+}
+
+#cookbook{
+    background-image: url(images/cookbook.jpeg);
+    background-size: cover;
+}
+
+#cookbook-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+
+
+#content-two{
+    /*border: 1px solid white;*/
+    height: 500px;
+    width: 480px;
+    color: white;
+    line-height: 30px;
+    font-size: large;
+
+}
+#content-one{
+    /*border: 1px solid white;*/
+    height: 80px;
+    width: 480px;
+
+}
+
+/* FOOTER  */ 
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-color: black;
+}
+
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  width: 98%;
+  height: 550px;
+  
+  
+}
+.footer-container > div{
+
+  border: 1px solid white;
+  width: 34%;
+  height: 550px;
+ 
+  
+}
+
+.footer-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-logo{
+  /*border: 1px solid white;*/
+    width: 400px;
+    height: 400px;
+    background-image: url(images/footer-logo-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-sss{
+ /* border: 1px solid white;*/
+  width: 400px;
+  height: 300px;
+}
+
+.footer-sss >a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  padding-top: 25px;
+  text-align: center;
+}
+.footer-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.footer-two >h2{
+
+  color: white;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.footer-two >h3{
+
+  color: white;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  font-weight: 100;  
+}
+
+.footer-two >h1{
+
+  color: white;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+/* */
+
+#socialTwo{
+  /* border: 1px solid white;*/
+   width: 250px;
+   height: 50px;
+   
+}
+
+#iconTwo{
+  /*border: 1px solid white;*/
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 8px;
+
+}
+
+#iconTwo img{
+ 
+ border-radius: 20px; 
+}
+
+
+.footer-two> p{
+
+  color: white;
+  /*font-size: 16px;*/
+  display: block;
+  text-align: center;
+  
+}
+
+
+
+#mail{
+  border: 3px solid white;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  
+  
+}
+
+#abone{
+  border: 2px solid white;
+  background-color: brown;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  
+
+  
+}
+
+#abone:hover {
+  background-color: white;
+  color: brown;
+}
+
+
+
+#hr2{
+  width: 45%;
+  border-style: solid;
+  color: cornflowerblue;
+  border-width: 2px;
+  margin-top: 30px;
+
+}
+
+.footer-three > a{
+  color: white;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size:18px ;
+  padding-top: 20px;
+  
+}
+
